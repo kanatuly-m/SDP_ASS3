@@ -4,6 +4,6 @@ public final class KaspiAPI {
     }
 
     public void sendPayment(double moneyKzt) {
-        System.out.println("[Kaspi] Processed: " + moneyKzt);
+        System.out.println("[Kaspi] Processed: " + moneyKzt + "tg");
     }
 }
