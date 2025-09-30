@@ -4,6 +4,6 @@ public final class HalykAPI {
     }
 
     public void makeCharge(double cashKzt) {
-        System.out.println("[Halyk] Charged: " + cashKzt);
+        System.out.println("[Halyk] Charged: " + cashKzt + "tg");
     }
 }
