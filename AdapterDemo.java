@@ -1,10 +1,10 @@
 public class AdapterDemo {
     public static void main(String[] args) {
-        PaymentProcessor viaPayPal = new PayPalAdapter(new PayPalAPI());
-        PaymentProcessor viaStripe = new StripeAdapter(new StripeAPI());
+        PaymentProcessor viaKaspi = new KaspiAdapter(new KaspiAPI());
+        PaymentProcessor viaHalyk = new HalykAdapter(new HalykAPI());
 
-        ECommerceApp shopA = new ECommerceApp(viaPayPal);
-        ECommerceApp shopB = new ECommerceApp(viaStripe);
+        ECommerceApp shopA = new ECommerceApp(viaKaspi);
+        ECommerceApp shopB = new ECommerceApp(viaHalyk);
 
         shopA.checkout(100.0);
         shopB.checkout(249.99);

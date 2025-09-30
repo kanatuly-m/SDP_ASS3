@@ -1,4 +1,4 @@
 public interface PaymentProcessor {
-    void processPayment(double amountUsd);
+    void processPayment(double amountKzt);
     String getName();
 }

@@ -5,9 +5,9 @@ public final class ECommerceApp {
         this.processor = processor;
     }
 
-    public void checkout(double amountUsd) {
-        System.out.println("Checkout via " + processor.getName() + " for $" + amountUsd);
-        processor.processPayment(amountUsd);
+    public void checkout(double amountKzt) {
+        System.out.println("Checkout via " + processor.getName() + " for " + amountKzt);
+        processor.processPayment(amountKzt);
         System.out.println("Status: SUCCESS\n");
     }
 }
