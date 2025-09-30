@@ -6,7 +6,7 @@ public final class ECommerceApp {
     }
 
     public void checkout(double amountKzt) {
-        System.out.println("Checkout via " + processor.getName() + " for " + amountKzt);
+        System.out.println("Checkout via " + processor.getName() + " for " + amountKzt +"tg";
         processor.processPayment(amountKzt);
         System.out.println("Status: SUCCESS\n");
     }
